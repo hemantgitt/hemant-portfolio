@@ -264,8 +264,7 @@ function Hero() {
           I build scalable, high-performance web applications using{' '}
           <span className="text-foreground">React</span>,{' '}
           <span className="text-foreground">Next.js</span> and{' '}
-          <span className="text-foreground">TypeScript</span>. 6+ years shipping products used
-          by millions.
+          <span className="text-foreground">TypeScript</span>. 6+ years Software development.
         </motion.p>
 
         <motion.div
