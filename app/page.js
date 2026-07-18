@@ -582,11 +582,7 @@ function Contact() {
             <Separator className="my-6 bg-white/[0.06]" />
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-              <Button asChild className="h-11">
-                <a href={`mailto:${EMAIL}?subject=Senior%20Frontend%20Opportunity`}>
-                  <Mail className="mr-2 h-4 w-4" /> Email
-                </a>
-              </Button>
+             
               <Button asChild variant="outline" className="h-11 border-white/10 bg-white/[0.03]">
                 <a href={`tel:${PHONE_RAW}`}>
                   <Phone className="mr-2 h-4 w-4" /> Call
@@ -601,7 +597,7 @@ function Contact() {
 
             <div className="mt-6 flex items-center gap-2 text-sm text-muted-foreground">
               <a
-                href="https://www.linkedin.com/in/hemant-jha"
+                href="https://www.linkedin.com/in/hemant-jha-senior-frontend-developer/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors"
@@ -610,7 +606,7 @@ function Contact() {
               </a>
               <span className="text-white/20">·</span>
               <a
-                href="https://github.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 hover:text-foreground transition-colors"
