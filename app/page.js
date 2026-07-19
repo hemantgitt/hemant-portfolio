@@ -264,7 +264,7 @@ function Hero() {
           I build scalable, high-performance web applications using{' '}
           <span className="text-foreground">React</span>,{' '}
           <span className="text-foreground">Next.js</span> and{' '}
-          <span className="text-foreground">TypeScript</span>. 6+ years Software development.
+          <span className="text-foreground">TypeScript</span>. 6+ years of Software Development.
         </motion.p>
 
         <motion.div
@@ -581,7 +581,11 @@ function Contact() {
             <Separator className="my-6 bg-white/[0.06]" />
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-             
+              <Button asChild className="h-11">
+                <a href={`mailto:${EMAIL}?subject=Senior%20Frontend%20Opportunity`}>
+                  <Mail className="mr-2 h-4 w-4" /> Email
+                </a>
+              </Button>
               <Button asChild variant="outline" className="h-11 border-white/10 bg-white/[0.03]">
                 <a href={`tel:${PHONE_RAW}`}>
                   <Phone className="mr-2 h-4 w-4" /> Call
